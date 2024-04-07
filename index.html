@@ -7,60 +7,89 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
-        <img src="#" alt="Logo da Royal Hamburgueria">
+    <header class="cabecalho">
+        <img src="assets/img/logo.png" alt="Logo da Royal Hamburgueria">
         <menu>
             <ul>
-                <li>Sobre nós</li>
-                <li>Cardápio</li>
-                <li>Localização</li>
-                <li>Contato</li>
+                <a href="#boasvindas"><li>Sobre nós</li></a>
+                <a href="#produtos"><li>Produtos</li></a>
+                <a href="#localizacao"><li>Localização</li></a>
+                <a href="#contato"><li>Contato</li></a>
             </ul>
         </menu>
     </header>
     
     <main>
-        <section>
-            <h1>BEM VINDO A ROYAL</h1>
-            <h2>O reino dos sabores!</h2>
-            <p>Prepare-se para uma experiência gastronômica única e deliciosa na hamburgueria Royal, cada mordida é uma viagem ao mundo dos sabores mais autênticos e suculentos. Dos clássicos irresistíveis às criações inovadoras, nossa equipe dedicada está aqui para garantir que cada hambúrguer seja uma verdadeira obra-prima culinária.</p>
+        <section id="boasvindas">
+            <div class="bg-transparente">
+                <h1>BEM VINDO A ROYAL</h1>
+                <h2>O reino dos sabores!</h2>
+                <p>Prepare-se para uma experiência gastronômica única e deliciosa na hamburgueria Royal, cada mordida é uma viagem ao mundo dos sabores mais autênticos e suculentos. Dos clássicos irresistíveis às criações inovadoras, nossa equipe dedicada está aqui para garantir que cada hambúrguer seja uma verdadeira obra-prima culinária.</p>
+                <h1>SOBRE A ROYAL</h1>
+                <p>A Royal é fruto do sonho de Benjamin, um jovem chef apaixonado pela culinária. Com determinação, ele transformou sua visão em realidade, criando uma hamburgueria onde à qualidade excepcional dos hambúrgueres se une a um ambiente acolhedor e serviço impecável. Ao longo dos anos, a Royal conquistou uma reputação notável, atraindo clientes de todos os lugares em busca de uma experiência gastronômica única. Essa história continua sendo escrita, com Benjamin e sua equipe sempre em busca de novas maneiras de surpreender e encantar seus clientes.</p>
+            </div>
         </section>
 
-        <section>
-            <h1>SOBRE A ROYAL</h1>
-            <p>A Royal é fruto do sonho de Benjamin, um jovem chef apaixonado pela culinária. Com determinação, ele transformou sua visão em realidade, criando uma hamburgueria onde à qualidade excepcional dos hambúrgueres se une a um ambiente acolhedor e serviço impecável. Ao longo dos anos, a Royal conquistou uma reputação notável, atraindo clientes de todos os lugares em busca de uma experiência gastronômica única. Essa história continua sendo escrita, com Benjamin e sua equipe sempre em busca de novas maneiras de surpreender e encantar seus clientes.</p>
-        </section>
-
-        <section>
+        <section id="produtos">
             <h2>NOSSOS PRODUTOS</h2>
-            <section>
-                <div>Produto 1</div>
-                <div>Produto 2</div>
-                <div>Produto 3</div>
-                <div>Produto 4</div>
-                <div>Produto 5</div>
-                <div>Produto 6</div>
+            <section class="grid-produtos">
+                <div class="container-produtos">
+                    <h3>HAMBURGUER 1</h3>
+                    <img src="assets/img/hamburguer.jpg" alt="Imagem do Hamburguer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam blanditiis quo a, non quas dolore molestias eaque eum natus rerum tenetur ab? Totam possimus enim aperiam sint deserunt assumenda!</p>
+                    <p>R$0,00</p>
+                </div>
+                <div class="container-produtos">
+                    <h3>HAMBURGUER 2</h3>
+                    <img src="assets/img/hamburguer.jpg" alt="Imagem do Hamburguer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam blanditiis quo a, non quas dolore molestias eaque eum natus rerum tenetur ab? Totam possimus enim aperiam sint deserunt assumenda!</p>
+                    <p>R$0,00</p>
+                </div>
+                <div class="container-produtos">
+                    <h3>HAMBURGUER 3</h3>
+                    <img src="assets/img/hamburguer.jpg" alt="Imagem do Hamburguer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam blanditiis quo a, non quas dolore molestias eaque eum natus rerum tenetur ab? Totam possimus enim aperiam sint deserunt assumenda!</p>
+                    <p>R$0,00</p>
+                </div>
+                <div class="container-produtos">
+                    <h3>HAMBURGUER 4</h3>
+                    <img src="assets/img/hamburguer.jpg" alt="Imagem do Hamburguer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam blanditiis quo a, non quas dolore molestias eaque eum natus rerum tenetur ab? Totam possimus enim aperiam sint deserunt assumenda!</p>
+                    <p>R$0,00</p>
+                </div>
+                <div class="container-produtos">
+                    <h3>HAMBURGUER 5</h3>
+                    <img src="assets/img/hamburguer.jpg" alt="Imagem do Hamburguer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam blanditiis quo a, non quas dolore molestias eaque eum natus rerum tenetur ab? Totam possimus enim aperiam sint deserunt assumenda!</p>
+                    <p>R$0,00</p>
+                </div>
+                <div class="container-produtos">
+                    <h3>HAMBURGUER 6</h3>
+                    <img src="assets/img/hamburguer.jpg" alt="Imagem do Hamburguer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam blanditiis quo a, non quas dolore molestias eaque eum natus rerum tenetur ab? Totam possimus enim aperiam sint deserunt assumenda!</p>
+                    <p>R$0,00</p>
+                </div>
             </section>
         </section>
 
-        <section>
+        <section id="localizacao">
             <h2>NOS LOCALIZE!</h2>
-            <div>iframe mapa</div>
+            <div class="container-mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943766.4382977874!2d-44.49894400000001!3d-22.482124799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99316a3fea229b%3A0x6fcf73c1940849e6!2sHead%60s%20Burguer!5e0!3m2!1spt-BR!2sbr!4v1712509221495!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </section>
 
-        <section>
+        <section id="contato">
             <h2>CONTATE-NOS ATRAVÉS DAS NOSSAS REDES SOCIAIS!</h2>
-            <section>
-                <img src="#" alt="Logo do WhatsApp">
-                <img src="#" alt="Logo do Instagram">
-                <img src="#" alt="Logo do Facebook">
-                <img src="#" alt="Logo do X">
+            <section class="imagens">
+                <a href="#"><img src="assets/img/whatsapp.png" alt="Logo do WhatsApp"></a>
+                <a href="#"><img src="assets/img/instagram.png" alt="Logo do Instagram"></a>
+                <a href="#"><img src="assets/img/facebook.png" alt="Logo do Facebook"></a>
+                <a href="#"><img src="assets/img/X.png" alt="Logo do X"></a>
             </section>
         </section>
     </main>
 
     <footer>
-        <p>® DESENVOLVIDO POR <a href="#">EMANUEL ROSA FRANCO</a></p>
+        <p>® DESENVOLVIDO POR <a href="https://github.com/emanuelrf7">EMANUEL ROSA FRANCO</a></p>
     </footer>
 </body>
 </html>
