@@ -46,6 +46,11 @@ html {
     padding: 15px;
 }
 
+.container-opcoes a:hover {
+    color: #FAAB0F;
+    transition: 0.2s;
+}
+
 #boasvindas h1 {
     margin-top: 20px;
     font-size: 1.7em;
@@ -129,6 +134,7 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 #contato {
@@ -166,4 +172,118 @@ footer a {
 footer a:hover {
     color: #FAAB0F;
     transition: 0.2s;
+}
+
+@media only screen and (min-width: 568px) {
+    .cabecalho {
+        height: 100%;
+    }
+
+    .cabecalho img {
+        width: 200px;
+    }
+
+    .menu {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #boasvindas {
+        background-image: url("../assets/img/background-medio.jpg");
+        background-position: right center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #boasvindas h1 {
+        letter-spacing: 5px;
+        font-size: 2em;
+    }
+
+    #boasvindas h2 {
+        font-size: 1.8em;
+    }
+
+    #boasvindas p {
+        font-size: 1.3em;
+    }
+
+    #produtos h2 {
+        font-size: 1.8em;
+    }
+    
+    .grid-produtos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #localizacao h2 {
+        font-size: 1.8em;
+    }
+
+    #contato h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-opcoes {
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+    }
+
+    #boasvindas {
+        background-image: url("../assets/img/background-grande.jpg");
+    }
+
+    .bg-transparente {
+        width: 500px;
+        padding: 15px;
+    }
+
+    .grid-produtos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container-produtos {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #boasvindas {
+        background-image: url("../assets/img/background-extragrande.jpg");
+    }
+
+    .container-produtos {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1770px) {
+    .grid-produtos {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .container-produtos {
+        width: 280px;
+    }
+}
+
+@media only screen and (min-height: 700px) {
+    #boasvindas {
+        height: 750px;
+        background-position: center center;
+    }
+
+    .bg-transparente {
+        height: 700px;
+    }
 }
